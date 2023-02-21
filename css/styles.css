@@ -7,3 +7,9 @@
   margin: 0;
   padding: 0;
 }
+
+.containerNewBook {
+  display: flex;
+  flex-direction: column;
+  height: ;
+}
