@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home Page</title>
-  <!--CSS Stylesheet-->
-  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Awesome BookList</title>
 </head>
-
 <body>
-  <section>
-  <h1 class="title">Awesome Books</h1>
-  <br>
-  <div id="containerBooks">
-    
-  </div>
-</section>
-<section>
-  <form class="form">
-      <div><input class="input" name="title" id="title" type="text" placeholder="Title" required></div>
-      <div><input class="input" name="author" id="author" type="text" placeholder="Author" required></div>
-      <button type="click" class="addBook">Add</button>
-</form>
-</section>
-  <script src="./js/main.js"></script>
+    <h1>All Awesome Books</h1>
+    <table class="book-list">
+    </table>
+    <form id="form" class="form1">
+        <h1>Add a new book</h1>
+        <div>
+            <!-- <label >Title</label><br> -->
+            <input type="text" id="title" class="title1" placeholder="title" required>
+        </div>
+        <div>
+            <!-- <label >Author</label><br> -->
+            <input type="text" id="author" class="author1" placeholder="author" required>
+        </div>
+        <button type="submit" class="add">Add</button>
+    </form>
+<script src="js/main.js"></script>
 </body>
-
 </html>
