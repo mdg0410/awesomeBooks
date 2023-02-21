@@ -16,18 +16,18 @@ function removeBook(index) {
 const render = () => {
   booksContainer.innerHTML = '';
   for (let i = 0; i < books.length; i += 1) {
-    const item = document.createElement('li');
-    item.innerHTML = `<span class="title">${books[i].title}</span> <br> ${books[i].author} <br>`;
+    const element = document.createElement('li');
+    element.innerHTML = `<span class="title">${books[i].title}</span> <br> ${books[i].author} <br>`;
     const button = document.createElement('button');
     const divider = document.createElement('hr');
     button.textContent = 'Remove';
-    item.append(button);
-    item.append(divider);
+    element.append(button);
+    element.append(divider);
     button.onclick = () => {
       removeBook(i);
       render();
     };
-    booksContainer.append(item);
+    booksContainer.append(element);
   }
 };
 
