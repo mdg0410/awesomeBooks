@@ -31,11 +31,32 @@
 
 In this project, we build a basic website that allows users to add/remove books from a list. we achieve that by using JavaScript objects and arrays. we also use dynamic for modify the DOM and add basic events
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- HTML
-- javaScript
-- Vs code
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/default.asp">Html</a></li>
+    <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+    <li><a href="https://www.w3schools.com/javascript/default.asp">JavaScript</a></li>
+    <li><a href="https://www.geeksforgeeks.org/dom-document-object-model/">DOM</a>
+    </li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Add Book]**
+- **[Display Book]**
+- **[Remove Book]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project link live demo
 
@@ -73,6 +94,15 @@ Now you can go and play with it as you wish :smile:
 - LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
 
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Add navigation bar]**
+- [ ] **[Add contact page]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Show your support
 Give a ⭐️ if you like this project!
 
@@ -87,4 +117,4 @@ Feel free to check the [issues page](https://github.com/mdg0410/awesomeBooks/iss
 This project has been created in reference to the template created by
 
 ## 📝 License
-This project is [MIT](./LICENSE.txt) licensed.
+This project is [MIT](https://github.com/mdg0410/awesomeBooks/blob/main/LICENSE) licensed.
