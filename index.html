@@ -10,21 +10,21 @@
 </head>
 
 <body>
-  <section>
-  <h1 class="title">All Awesome Books</h1>
-  <div id="containerBooks"></div>
-</section>
-<section>
-  <form class="form">
-    <h2>Add a new book</h2>
-    <br>
-      <div><input class="input" name="title" id="title" type="text" placeholder="Title" required></div>
-      <br>
-      <div><input class="input" name="author" id="author" type="text" placeholder="Author" required></div>
-      <br>
-      <button type="click" class="addBook">Add</button>
-</form>
-</section>
+    <h1>All Awesome Books</h1>
+    <ul id="containerBooks">
+    </ul>
+    <form class="form" id="form1">
+        <h1>Add a new book</h1>
+        <div> 
+            <!-- <label >Title</label><br> -->
+            <input type="text" id="title" class="title1" placeholder="title" required>
+        </div>
+        <div>
+            <!-- <label >Author</label><br> -->
+            <input type="text" id="author" class="author1" placeholder="author" required>
+        </div>
+        <button type="submit" class="addBook">Add</button>
+    </form>
 <script src="./js/books.js"></script>
 <script src="./js/bookDisplay.js"></script>
   <script src="./js/main.js"></script>
