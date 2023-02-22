@@ -2,14 +2,21 @@ let books = [
 
 ];
 
+let Id;
+
 const booksContainer = document.getElementById('containerBooks');
 
 function saveData() {
   localStorage.setItem('books', JSON.stringify(books));
 }
 
+function checkDelete(pass) {
+  return pass.id !== books[Id].id;
+}
+
 function removeBook(index) {
-  books.splice(index, 1);
+  Id = index;
+  books = books.filter(checkDelete);
   saveData();
 }
 
@@ -35,12 +42,22 @@ window.onload = () => {
   if (localStorage.getItem('books')) {
     books = JSON.parse(localStorage.getItem('books'));
   }
-
   render();
 };
 
-function addBook(title, author) {
-  books.push({ title, author });
+const len = () => {
+  const aux = books.length;
+  let aux1;
+  if (aux !== 0) {
+    aux1 = books[aux - 1].id + 1;
+  } else {
+    aux1 = 1;
+  }
+  return aux1;
+};
+
+function addBook(title, author, id) {
+  books.push({ title, author, id });
   render();
 }
 
@@ -49,6 +66,7 @@ document.forms[0].onsubmit = (e) => {
   const thisForm = e.target;
   const title = thisForm[0].value;
   const author = thisForm[1].value;
-  addBook(title, author);
+  const id = len();
+  addBook(title, author, id);
   saveData();
 };

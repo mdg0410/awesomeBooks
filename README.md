@@ -1,8 +1,7 @@
-# Awesome-Books
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Awesome Books</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -27,9 +26,11 @@
 - [📝 License](#license)
 
 
-> ##This is a awesome-books project##
+<!-- PROJECT DESCRIPTION -->
 
-In this project, we build a basic website that allows users to add/remove books from a list. we achieve that by using JavaScript objects and arrays. we also use dynamic for modify the DOM and add basic events
+# 📖 Awesome Books<a name="about-project"></a>
+
+**Awesome Books** In this project, we build a basic website that allows users to add/remove books from a list. we achieve that by using JavaScript objects and arrays. we also use dynamic for modify the DOM and add basic events
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,9 +59,14 @@ In this project, we build a basic website that allows users to add/remove books 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Project link live demo
+## 🚀 Live Demo <a name="live-demo"></a>
 
+**Open the live-demo of the project**
 [Project Link][https://mdg0410.github.io/awesomeBooks/]
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 ## Getting Started
 To get a local copy of this exercice, Please follow these simple example steps.
@@ -80,12 +86,13 @@ To get a local copy of this exercice, Please follow these simple example steps.
 
 Now you can go and play with it as you wish :smile:
 
-## Authors
+## 👥 Authors <a name="authors"></a>
+
+👤 **theresetuyi**
+
 - GitHub: [@githubhandle](https://github.com/theresetuyi)
 - Twitter: [@twitterhandle](https://twitter.com/THERESETUYISAB2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/therese-theddy-tuyisabe-249820203/)
-
-## 👥 Authors <a name="authors"></a>
 
 👤 **mdg0410**
 
@@ -93,6 +100,7 @@ Now you can go and play with it as you wish :smile:
 - Twitter: [@StevenLevoyer](https://twitter.com/StevenLevoyer)
 - LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
