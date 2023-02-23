@@ -29,6 +29,10 @@ body {
   margin: 0.5vh 1vh 1vh 1vh;
 }
 
+.hidden {
+  display: none;
+}
+
 .line {
   width: 30vh;
   height: 2px;
