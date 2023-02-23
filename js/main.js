@@ -5,7 +5,7 @@ window.onload = () => {
   // eslint-disable-next-line no-undef
   display = new BookDisplay();
   display.render();
-  today.textContent = new Date().toString();
+  today.textContent = new Date().toDateString();
 };
 
 const len = () => {
