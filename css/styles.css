@@ -19,32 +19,34 @@ body {
   border: 3px solid black;
 }
 
-  .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    list-style-type: none;
-  }
-
-  hr {
-    width: 12px;
-    transform: rotate(90deg);
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  a:hover {
-    color: blue;
-  }
-.containerDate{
-    width:100%;
-    display: flex;
-    justify-content: flex-end;
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
 }
+
+hr {
+  width: 12px;
+  transform: rotate(90deg);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.containerDate {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 #containerBooks {
   display: flex;
   flex-direction: column;
@@ -113,4 +115,12 @@ button {
 
 .addBook {
   padding: 0.5vh 2vh 0.5vh 2vh;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  border: black solid 3px;
+  margin-top: 20vh;
+  padding: 1vh;
 }
