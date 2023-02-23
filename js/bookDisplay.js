@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-class BookDisplay {
+class Display {
   books = [];
 
   booksContainer = document.getElementById('containerBooks');

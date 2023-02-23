@@ -3,7 +3,7 @@ const today = document.getElementById('today');
 
 window.onload = () => {
   // eslint-disable-next-line no-undef
-  display = new BookDisplay();
+  display = new Display();
   display.render();
   today.textContent = new Date().toDateString();
 };
